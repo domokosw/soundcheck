@@ -1,9 +1,0 @@
-:root { --max: 72rem; --pad: 1rem; font-family: system-ui, Arial, sans-serif; }
-* { box-sizing: border-box; }
-body { margin: 0; line-height: 1.6; }
-header, footer { padding: var(--pad); background: #f6f6f6; }
-main { margin: 0 auto; max-width: var(--max); padding: calc(var(--pad) * 2); }
-nav a { margin-right: 1rem; text-decoration: none; }
-button { padding: .6rem 1rem; border: 1px solid #ddd; background: #fff; cursor: pointer; }
-button:hover { background: #f0f0f0; }
-button:disabled { background: #eee; color: #999; cursor: not-allowed; }
